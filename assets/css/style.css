@@ -1,0 +1,6 @@
+.persons {
+  width: 390px;
+  height: 390px;
+  border-radius: 20px;
+  object-fit: cover;
+}
