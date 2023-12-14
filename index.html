@@ -19,6 +19,11 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
@@ -90,7 +95,7 @@
           OUR CONTACT
         </button>
       </div>
-      <div class="col-4 mt-5">
+      <div class="col-4 mt-5" style="position: relative">
         <img
           src="https://assets.nicepagecdn.com/11a8ddce/6069102/images/business-man-woman-looking-company-diagram.jpg"
           alt=""
@@ -104,8 +109,8 @@
             background: #8a5cd9;
             border-radius: 50%;
             position: absolute;
-            top: 40%;
-            left: 60%;
+            top: 70%;
+            left: 40%;
             z-index: 1;
           "
         ></div>
@@ -118,8 +123,8 @@
             background: #f0974f;
             border-radius: 50%;
             position: absolute;
-            top: 40%;
-            left: 65%;
+            top: 70%;
+            left: 55%;
           "
         ></div>
       </div>
@@ -279,27 +284,129 @@
       </div>
     </div>
 
-    <div class="container-fluid bg-danger" style="background-color: #8a5cd9">
-      <div class="row">
-        <div class="col-6">
-          <h2>Intro to Web design</h2>
-          <h5>Beginner</h5>
-          <p>
+    <div
+      class="container-fluid mt-5 p-5 text-light"
+      style="background-color: #8a5cd9"
+    >
+      <div class="row justify-content-center align-items-center">
+        <div class="col-4 p-5">
+          <h2
+            class="fw-bold mb-3"
+            style="font-family: 'Raleway'; font-size: 48px"
+          >
+            Intro to Web design
+          </h2>
+          <h5 class="text-light mb-4 fw-bold">Beginner</h5>
+          <p
+            style="
+              font-family: 'Open Sans', sans-serif;
+              font-size: 18px;
+              font-weight: 400;
+              width: 500px;
+              line-height: 1.7rem;
+            "
+          >
             This comprehensive webinar gives you the skills and experience you
             need to find your first job in the industry. With the experience you
-            gain at eSkill, you'll have a solid portfolio that's relevant and
+            gain at eSkill, you'll have a solid portfolio that's relevant an d
             ready for what the market needs.
           </p>
 
-          <p>Image from <span>Freepik</span></p>
+          <p>Image from <span class="fw-bold">Freepik</span></p>
           <a
             href="#"
             class="btn text-light border-white border-2 text-uppercase rounded-5 fw-semibold fs-6"
-            style="padding: 10px 113px"
-            >read more</a
+            style="padding: 10px 55px"
+            >our contact</a
           >
         </div>
-        <div class="col-6"></div>
+        <div class="col-5" style="padding-left: 150px; position: relative">
+          <img
+            class="rounded-5 ms-5"
+            src="https://assets.nicepagecdn.com/11a8ddce/6069102/images/17253630_5831927.jpg"
+            alt="book"
+            style="width: 284px"
+            ;
+            height="394px"
+          />
+
+          <div
+            class="circle"
+            style="
+              width: 130px;
+              height: 130px;
+              background: #f0974f;
+              border-radius: 50%;
+              position: absolute;
+              top: 75%;
+              left: 60%;
+              z-index: 10;
+            "
+          ></div>
+
+          <div
+            class="circle"
+            style="
+              width: 130px;
+              height: 130px;
+              background: #fff;
+              border-radius: 50%;
+              position: absolute;
+              top: 75%;
+              left: 50%;
+              z-index: 10;
+            "
+          ></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="container-fluid bg-black text-light p-5 d-flex justify-content-center"
+    >
+      <div class="row">
+        <div class="col-6">
+          <h2 class="fw-bolder" style="font-size: 48px; font-family: 'Raleway'">
+            Get Skill news and updates to your inbox!
+          </h2>
+          <p
+            class="mt-4"
+            style="
+              font-family: 'Open Sans', sans-serif;
+              font-weight: 400;
+              font-size: 18px;
+            "
+          >
+            Sample text. Click to select the Text Element.
+          </p>
+        </div>
+
+        <div class="col-5">
+          <div class="text-light">
+            <label
+              for="exampleFormControlInput1"
+              class="form-label"
+              style="font-family: 'Open Sans', sans-serif; font-weight: 400"
+              >Email
+            </label>
+            <input
+              type="email"
+              class="form-control text-light bg-black border-0 border-light border-bottom rounded-0"
+              id="exampleFormControlInput1"
+              placeholder="Enter a valid email address"
+            />
+            <a
+              href="#"
+              class="btn text-light text-uppercase rounded-5 fw-semibold fs-6 mt-4"
+              style="
+                padding: 10px 100px;
+                background-color: #8a5cd9;
+                width: 100%;
+              "
+              >submit</a
+            >
+          </div>
+        </div>
       </div>
     </div>
   </body>
